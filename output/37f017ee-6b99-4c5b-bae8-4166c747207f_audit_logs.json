@@ -1,0 +1,148 @@
+{
+    "evidence_metadata": {
+        "evidence_id": "37f017ee-6b99-4c5b-bae8-4166c747207f",
+        "timestamp": "2025-11-12T16:32:30Z",
+        "project": "mineral-concord-477012-n9",
+        "bucket": "digital_forensics_evidence"
+    },
+    "fetch_mode": "PRODUCTION",
+    "total_events": 17,
+    "logs": [
+        {
+            "timestamp": "2025-11-03T15:55:03.250904+00:00Z",
+            "action": "FILE_DELETE",
+            "method_name": "storage.objects.delete",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/cv.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.591634+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/share1.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.591803+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/sync1_info.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.592858+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/upload2.csv",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.593143+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/delete1_info.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.593979+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/data.csv",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.594716+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/edit1.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.595944+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/notes.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:18.601255+00:00Z",
+            "action": "FILE_READ",
+            "method_name": "storage.objects.get",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/upload1.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:20.960013+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/upload1.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:21.510121+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/upload2.csv",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:22.099596+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/sync1_info.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:22.748155+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/share1.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:24.083450+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/notes.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:24.549903+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/edit1.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:24.801035+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/delete1_info.txt",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        },
+        {
+            "timestamp": "2025-11-03T15:56:25.457620+00:00Z",
+            "action": "FILE_UPLOAD",
+            "method_name": "storage.objects.create",
+            "resource_name": "projects/_/buckets/digital_forensics_evidence/objects/data.csv",
+            "principal_email": "diptaroopchakraborty@gmail.com",
+            "caller_ip": "136.233.9.100"
+        }
+    ]
+}

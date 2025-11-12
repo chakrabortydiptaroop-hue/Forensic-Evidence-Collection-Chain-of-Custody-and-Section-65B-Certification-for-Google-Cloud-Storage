@@ -1,0 +1,81 @@
+╔══════════════════════════════════════════════════════════════╗
+║           SECTION 65B(4) CERTIFICATE                           ║
+║          (Indian Evidence Act, 1872)                           ║
+╚══════════════════════════════════════════════════════════════╝
+
+Certificate Number:        064271e8-dd67-45d6-9412-fbdd282bd93f
+Evidence ID:               37f017ee-6b99-4c5b-bae8-4166c747207f
+GCP Project:               mineral-concord-477012-n9
+Cloud Storage Bucket:      digital_forensics_evidence
+Collected By:              Tejojith
+Designation:               Forensic Examiner
+Organization:              Not specified
+Collection Time (UTC):     2025-11-12T16:32:30Z
+Certificate Generated:     2025-11-12T16:32:40Z
+Evidence Hash (SHA-256):   ff1b8b5d7dd8e5b4dfe791e9f11b7da4631ae2a1bb81caea6306a8d0822f6851
+
+──────────────────────────────────────────────────────────────────────
+
+DECLARATION:
+
+I, Tejojith, being duly authorized to certify under 
+Section 65B(4) of the Indian Evidence Act, 1872, hereby declare that:
+
+1.  I am the person who collected/produced the electronic record 
+described above from the Google Cloud Platform storage bucket.
+
+2.  The electronic record was produced by a computer system that was, 
+at the time of production, functioning properly and correctly, without 
+any disturbance, interruption, or error.
+
+3.  The computer system and data storage have been maintained in a 
+secure manner to prevent unauthorized access, modification, or alteration.
+
+4.  The computer system employed proper access controls and audit logging 
+to ensure the integrity and authenticity of the electronic records.
+
+5.  The electronic record has not been altered, modified, tampered with, 
+or manipulated in any manner since its production by the computer system.
+
+6.  The hash value (SHA-256) provided above serves as a cryptographic 
+fingerprint of the evidence and can be used to verify its integrity.
+
+7.  I am competent to testify and have personal knowledge of the facts 
+stated in this certificate.
+
+8.  This certificate is being produced to authenticate the electronic 
+record as evidence in legal proceedings as per Section 65B of the Indian 
+Evidence Act, 1872.
+
+──────────────────────────────────────────────────────────────────────
+
+SIGNATURE AND ATTESTATION:
+
+Signature of Certifying Officer:
+
+_______________________________
+
+Name: Tejojith
+Date: ______________________
+
+Designation: Forensic Examiner
+
+Organization: Not specified
+
+Contact Email: ________________________
+
+Contact Phone: ________________________
+
+──────────────────────────────────────────────────────────────────────
+
+LEGAL ADMISSIBILITY NOTES:
+
+This certificate complies with Section 65B(4) of the Indian Evidence Act, 1872.
+The electronic record described herein is admissible in evidence in courts of law 
+in India if accompanied by this certificate signed by the certifying officer.
+
+For more information about digital evidence admissibility in Indian courts, 
+refer to:
+- Indian Evidence Act, 1872 (Section 65A-65C)
+- The Information Technology Act, 2000
+- Supreme Court precedents on electronic evidence

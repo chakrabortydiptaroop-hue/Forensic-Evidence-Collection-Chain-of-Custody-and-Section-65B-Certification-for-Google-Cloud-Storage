@@ -1,0 +1,133 @@
+╔════════════════════════════════════════════════════════════════╗
+║         FORENSIC INVESTIGATION REPORT                          ║
+║    GCP Cloud Storage Evidence Collection & Analysis            ║
+╚════════════════════════════════════════════════════════════════╝
+
+INVESTIGATION METADATA
+──────────────────────────────────────────────────────────────────────
+Evidence ID:               37f017ee-6b99-4c5b-bae8-4166c747207f
+GCP Project:               mineral-concord-477012-n9
+Storage Bucket:            digital_forensics_evidence
+Collection Timestamp:      2025-11-12T16:32:30Z
+Report Generated:          2025-11-12T16:32:40Z
+
+EVIDENCE ARTIFACTS
+──────────────────────────────────────────────────────────────────────
+Audit Logs File:           output\37f017ee-6b99-4c5b-bae8-4166c747207f_audit_logs.json
+  - Total Events Captured: 17
+  - Format: JSON
+  - Content: GCP audit log entries for bucket access
+
+Integrity Hash (SHA-256):  ff1b8b5d7dd8e5b4dfe791e9f11b7da4631ae2a1bb81caea6306a8d0822f6851
+  - Algorithm: SHA-256 (256-bit cryptographic hash)
+  - Purpose: Verify evidence integrity
+  - Method: Computed on exported audit logs file
+
+Section 65B Certificate:   output\37f017ee-6b99-4c5b-bae8-4166c747207f_section65b_certificate.txt
+  - Type: Section 65B(4) Certificate (Indian Evidence Act)
+  - Purpose: Legal admissibility in Indian courts
+  - Status: Ready for investigator signature
+
+Chain of Custody Record:   output\37f017ee-6b99-4c5b-bae8-4166c747207f_chain_of_custody.json
+  - Format: JSON with sequential entries
+  - Content: Evidence handling history
+  - Purpose: Prove no unauthorized access/tampering
+
+INVESTIGATION PROCESS SUMMARY
+──────────────────────────────────────────────────────────────────────
+1. IDENTIFICATION
+   - Identified target GCP project and storage bucket
+   - Assigned unique evidence ID for tracking
+   - Recorded timestamp of evidence collection
+
+2. PRESERVATION
+   - Enabled GCP Cloud Audit Logging for data access events
+   - Confirmed Data Access logs are being captured
+   - Verified read/write/delete operations are logged
+
+3. COLLECTION
+   - Queried GCP Cloud Logging API for audit logs
+   - Successfully extracted 17 audit log entries
+   - Logs include: timestamp, user, action, resource, IP address
+
+4. INTEGRITY VERIFICATION
+   - Calculated SHA-256 cryptographic hash of evidence
+   - Hash serves as fingerprint to detect tampering
+   - Hash value included in Section 65B certificate
+
+5. LEGAL CERTIFICATION
+   - Generated Section 65B(4) certificate
+   - Certificate is legally required in Indian courts
+   - Certificate must be signed by authorized officer
+
+6. CHAIN OF CUSTODY
+   - Created formal chain of custody record
+   - Documented initial collection
+   - Ready to document future transfers/access
+
+EVIDENCE CLASSIFICATION
+──────────────────────────────────────────────────────────────────────
+Evidence Type:             Digital/Cloud Native
+Source:                    Google Cloud Platform (GCP)
+Data Classification:       Forensic Audit Logs
+Sensitivity Level:         Investigation Related
+Jurisdiction:              India (Indian Evidence Act Section 65B)
+
+TECHNICAL DETAILS
+──────────────────────────────────────────────────────────────────────
+Cloud Platform:            Google Cloud Platform (GCP)
+Service:                   Cloud Storage (GCS)
+Log Source:                Cloud Audit Logs (Data Access)
+Log Types Captured:        storage.objects.create/get/delete/update
+API Used:                  google-cloud-logging Python library
+Hash Algorithm:            SHA-256 (NIST approved)
+Chain of Custody Format:   JSON with digital signatures
+
+FINDINGS AND OBSERVATIONS
+──────────────────────────────────────────────────────────────────────
+Total audit events captured: 17
+The evidence has been successfully collected from the cloud infrastructure
+and verified for integrity using cryptographic hashing.
+
+All evidence artifacts are properly documented and ready for:
+- Legal proceedings
+- Forensic analysis
+- Criminal investigation
+- Court presentation
+
+RECOMMENDATIONS
+──────────────────────────────────────────────────────────────────────
+1. Print and physically sign the Section 65B(4) certificate
+2. Maintain chain of custody as evidence passes through investigation
+3. Store all evidence files securely (encrypted, access controlled)
+4. Use the SHA-256 hash to verify evidence integrity periodically
+5. Keep detailed records of all evidence access and handling
+6. Present all artifacts together when submitting evidence to court
+7. Have authorized officer available to testify if needed
+
+ADMISSIBILITY STATEMENT
+──────────────────────────────────────────────────────────────────────
+This forensic report and all associated evidence artifacts comply with:
+✓ Section 65A & 65B of the Indian Evidence Act, 1872
+✓ The Information Technology Act, 2000
+✓ Digital Forensic best practices (NIST guidelines)
+✓ Chain of custody standards for digital evidence
+
+The evidence is LEGALLY ADMISSIBLE in Indian courts upon:
+- Signature of the certifying officer on the Section 65B certificate
+- Testimony from qualified expert/officer if required by prosecution
+- Verification of chain of custody integrity
+
+INVESTIGATION REPORT CERTIFICATION
+──────────────────────────────────────────────────────────────────────
+This forensic investigation report is generated automatically by the
+GCP Storage Forensics Automation system. All evidence collected has been
+verified for integrity and legal compliance.
+
+Authorized Official Signature: ______________________________
+
+Report Generated: 2025-11-12T16:32:40Z
+Evidence ID: 37f017ee-6b99-4c5b-bae8-4166c747207f
+
+──────────────────────────────────────────────────────────────────────
+END OF FORENSIC INVESTIGATION REPORT
